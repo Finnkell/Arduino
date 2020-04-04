@@ -11,7 +11,6 @@ IRrecv controle(reciever);
 decode_results results;
 
 void setup() {
-  // put your setup code here, to run once:
   pinMode(LED1, OUTPUT);
   pinMode(LED2, OUTPUT);
   pinMode(LED3, OUTPUT);
@@ -20,7 +19,6 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
   if (controle.decode(&results)){
     Serial.print("Valor: ");
     Serial.println(results.value, HEX);

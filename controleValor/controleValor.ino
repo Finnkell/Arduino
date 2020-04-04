@@ -11,7 +11,6 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
   if (controle.decode(&results)) {
     Serial.println(results.value, HEX);
     controle.resume();
