@@ -1,8 +1,8 @@
 <div align="center">
-<img src="https://lh6.googleusercontent.com/1Q-H2T8RGItNJEjyQXbikpPJasPc6XhAikgmlJIAhHkFaVC3MYCw5jpLYby-Rnda6_F4fOwdUgwwal8moabRJ1J3zSbgaZnKTUnAVQZTpZTz0XGLoDQ=w1280"  alt="logo" width="250" height="250"/>
-	
-<h1>Arduino</h1>
+	<img src="https://lh6.googleusercontent.com/1Q-H2T8RGItNJEjyQXbikpPJasPc6XhAikgmlJIAhHkFaVC3MYCw5jpLYby-Rnda6_F4fOwdUgwwal8moabRJ1J3zSbgaZnKTUnAVQZTpZTz0XGLoDQ=w1280"  alt="logo" width="250" height="250"/>
+	<h1>Arduino</h1>
 </div>
+
 ## Introdução
 
 Neste repositório estão reunidas atividades desenvolvidas utilizando a plataforma Arduino no projeto: **Experimentos em Robótica com Ênfase em Matemática**, que acontece no campus CEDETEG da Universidade Estadual do Centro Oeste (UNICENTRO). 
