@@ -1,15 +1,16 @@
-<div align="center">
-	<img src="https://lh6.googleusercontent.com/1Q-H2T8RGItNJEjyQXbikpPJasPc6XhAikgmlJIAhHkFaVC3MYCw5jpLYby-Rnda6_F4fOwdUgwwal8moabRJ1J3zSbgaZnKTUnAVQZTpZTz0XGLoDQ=w1280"  alt="logo" width="250" height="250"/>
-	<h1>Arduino</h1>
-</div>
+<center>
+	<img src="assets/logo.png"  alt="logo" weight=50 height=250/>
+</center>
+
+<h1 align="center">Arduino</h1>
 
 ## Introdução
 
 Neste repositório estão reunidas atividades desenvolvidas utilizando a plataforma Arduino no projeto: **Experimentos em Robótica com Ênfase em Matemática**, que acontece no campus CEDETEG da Universidade Estadual do Centro Oeste (UNICENTRO). 
 
-- [Site da UNICENTRO](https://github.com/Finnkell/Arduino/tree/master/Codigo_Morse "Unicentro")
-- [Site do Projeto](https://github.com/Finnkell/Arduino/tree/master/Codigo_Morse "Projeto")
-- [Sobre o Arduino](https://github.com/Finnkell/Arduino/tree/master/Codigo_Morse "Arduino")
+- [Site da UNICENTRO](https://www3.unicentro.br/ "Unicentro")
+- [Site do Projeto](https://sites.google.com/view/roboticademat "Projeto")
+- [Sobre o Arduino](https://arduino.cc "Arduino")
 
 ### Status do repositório
 
@@ -64,6 +65,6 @@ Agradecemos caso tenha interesse em contribuir. Encorajamos todos que queiram ad
 
 ## Utilização
 
-Com um aparelho Arduino em mãos ou utilizando uma plataforma de simulação online como o <a href="#">Thinkercad</a> basta seguir os passos. 
+Com um aparelho Arduino em mãos ou utilizando uma plataforma de simulação online como o [Thinkercad](https://www.tinkercad.com/ "Thinkercad") basta seguir os passos. 
 
 ## Licença
