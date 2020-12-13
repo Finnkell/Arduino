@@ -1,4 +1,6 @@
-// include the library code:
+/* Objetivo: Exibir temperatura e humidade na tela de cristal liquido */
+
+// Biblioteca:
 #include <LiquidCrystal.h>
 #include "dht.h"
 
