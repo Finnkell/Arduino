@@ -1,6 +1,4 @@
-<center>
-	<img src="assets/logo.png"  alt="logo" weight=50 height=250/>
-</center>
+<img src="assets/logo.svg"  alt="logo" align="center"/>
 
 <h1 align="center">Arduino</h1>
 
