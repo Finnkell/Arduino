@@ -1,23 +1,62 @@
-<img src="assets/logo.svg"  alt="logo" align="center"/>
 
-<h1 align="center">Arduino</h1>
+<center>
+  <img src="assets/logo.svg"  alt="logo"/>
+
+  <h1 align="center">Arduino</h1>
+
+  <img src="https://img.shields.io/badge/-Robótica-red"/>
+  <img src="https://img.shields.io/badge/-Open Source-blue"/>
+  <img src="https://img.shields.io/badge/-Arduino-green"/>
+</center>
+
+<hr/>
+
+<details open="open">
+  <summary>Tabela de conteúdos</summary>
+  <ol>
+    <li>
+      <a href="#introducao">Introdução</a>
+      <ul>
+        <li><a href="#status-do-repositorio">Status do repositório</a></li>
+        <li><a href="#projetos-deste-repositorio">Projetos deste repositório</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#contribuicoes">Contribuições</a>
+      <ul>
+        <li><a href="#como-contribuir">Como contribuir</a></li>
+      </ul>
+    </li>
+    <li><a href="#utilizacao">Utilização</a></li>
+    <li><a href="#licenc-a">Licença</a></li>
+  </ol>
+</details>
 
 ## Introdução
 
-Neste repositório estão reunidas atividades desenvolvidas utilizando a plataforma Arduino no projeto: **Experimentos em Robótica com Ênfase em Matemática**, que acontece no campus CEDETEG da Universidade Estadual do Centro Oeste (UNICENTRO). 
+Neste repositório estão reunidas atividades desenvolvidas utilizando a plataforma *Arduino* no projeto: **Experimentos em Robótica com Ênfase em Matemática**, que acontece no campus CEDETEG da Universidade Estadual do Centro Oeste (UNICENTRO).
 
-- [Site da UNICENTRO](https://www3.unicentro.br/ "Unicentro")
-- [Site do Projeto](https://sites.google.com/view/roboticademat "Projeto")
-- [Sobre o Arduino](https://arduino.cc "Arduino")
+Links úteis:
+
+- [Unicentro](https://www3.unicentro.br/ "Unicentro")
+
+- [Projeto](https://sites.google.com/view/roboticademat "Projeto")
+
+- [Arduino](https://arduino.cc "Arduino")
 
 ### Status do repositório
 
-Esse repositório está em constante desenvolvimento. Metas atuais:
+*Esse repositório está em constante desenvolvimento.*
 
- - [ ] Organizar o README para deixar mais atrativo o repositório.
- - [ ] Aplicar **Clean Code** aos códigos, de preferência com um arquivo .md com algumas explicações sobre o funcionamento desse determinado código.
+Metas:
+ - [x] Criar um **README** para deixar o repositório mais atrativo.
 
-### Projetos desse repositório
+ - [ ] Aplicar **Clean Code** aos códigos.
+
+ - [ ] Criar um arquivo .md com algumas explicações sobre o funcionamento desse determinado código.
+
+### Projetos deste repositório
+
 - [Agricola](https://github.com/Finnkell/Arduino/tree/master/Agricola "Agricola")
 - [Button](https://github.com/Finnkell/Arduino/tree/master/Button "Button")
 - [Codigo_Morse](https://github.com/Finnkell/Arduino/tree/master/Codigo_Morse "Codigo_Morse")
@@ -61,8 +100,12 @@ Agradecemos caso tenha interesse em contribuir. Encorajamos todos que queiram ad
 
 ### Como contribuir
 
+Você pode contribuir reportando problemas e com as mudanças descritas no status do repositório.
+
 ## Utilização
 
-Com um aparelho Arduino em mãos ou utilizando uma plataforma de simulação online como o [Thinkercad](https://www.tinkercad.com/ "Thinkercad") basta seguir os passos. 
+Com um aparelho *Arduino* recomendado em mãos ou utilizando uma plataforma de simulação online como o [Thinkercad](https://www.tinkercad.com/ "Thinkercad") basta seguir os passos.
 
 ## Licença
+
+Esse projeto está sobre e licença
