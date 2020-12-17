@@ -1,7 +1,9 @@
 
 <center>
-  <img src="assets/logo.svg"  alt="logo"/>
-
+  <p align="center">
+    <img src="assets/logo.svg"  alt="logo"/>
+  </p>
+  
   <h1 align="center">Arduino</h1>
 
   <img src="https://img.shields.io/badge/-Robótica-red"/>
