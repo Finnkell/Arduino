@@ -6,7 +6,7 @@
 
   <h1 align="center">Arduino</h1>
   
-  <div>
+  <div align="center">
     <img src="https://img.shields.io/badge/-Robótica-red"/>
     <img src="https://img.shields.io/badge/-Open Source-blue"/>
     <img src="https://img.shields.io/badge/-Arduino-green"/>
