@@ -3,12 +3,15 @@
   <p align="center">
     <img src="assets/logo.svg"  alt="logo"/>
   </p>
-  
-  <h1 align="center">Arduino</h1>
 
-  <img src="https://img.shields.io/badge/-Robótica-red"/>
-  <img src="https://img.shields.io/badge/-Open Source-blue"/>
-  <img src="https://img.shields.io/badge/-Arduino-green"/>
+  <h1 align="center">Arduino</h1>
+  
+  <div>
+    <img src="https://img.shields.io/badge/-Robótica-red"/>
+    <img src="https://img.shields.io/badge/-Open Source-blue"/>
+    <img src="https://img.shields.io/badge/-Arduino-green"/>
+  </div>
+
 </center>
 
 <hr/>
