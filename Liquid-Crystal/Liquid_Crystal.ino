@@ -1,8 +1,8 @@
 /* Objetivo: Exibir temperatura e humidade na tela de cristal liquido */
 
 // Biblioteca:
-#include <LiquidCrystal.h>
-#include "dht.h"
+#include <LiquidCrystal.h>  // DHT-sensor-library para usar a tela de cristal liquido
+#include "dht.h"  // Dependencia local da tela de cristal liquido
 
 // define pinos Ultrasom
 #define pino_sensorTemp A2
