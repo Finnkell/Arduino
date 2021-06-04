@@ -3,33 +3,6 @@
 </p>
 
 <h1 align="center">Arduino</h1>
-  
-<div align="center">
-  <img src="https://img.shields.io/badge/-Robótica-red"/>
-  <img src="https://img.shields.io/badge/-Open Source-blue"/>
-  <img src="https://img.shields.io/badge/-Arduino-green"/>
-</div>
-
-<details>
-  <summary>Tabela de conteúdos</summary>
-  <ol>
-    <li>
-      <a href="#introdução">Introdução</a>
-      <ul>
-        <li><a href="#status-do-repositório">Status do repositório</a></li>
-        <li><a href="#projetos-deste-repositório">Projetos deste repositório</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#contribuições">Contribuições</a>
-      <ul>
-        <li><a href="#como-contribuir">Como contribuir</a></li>
-      </ul>
-    </li>
-    <li><a href="#utilização">Utilização</a></li>
-    <li><a href="#licença">Licença</a></li>
-  </ol>
-</details>
 
 ## Introdução
 Neste repositório estão reunidas atividades desenvolvidas utilizando a plataforma *Arduino* no projeto: **Experimentos em Robótica com Ênfase em Matemática**, que acontece no campus CEDETEG da Universidade Estadual do Centro Oeste (UNICENTRO).
@@ -38,7 +11,7 @@ Links úteis:
 
 - [Unicentro](https://www3.unicentro.br/ "Unicentro")
 - [Projeto](https://sites.google.com/view/roboticademat "Robótica DEMAT")
-- [Arduino](arduino.cc)
+- [Arduino](https://www.arduino.cc/ "Site oficial do Arduino")
 
 ### Status do repositório
 *Esse repositório está em constante desenvolvimento.* Metas:
@@ -78,7 +51,4 @@ Agradecemos caso tenha interesse em contribuir. Encorajamos todos que queiram ad
 Você pode contribuir reportando problemas e com as metas descritas no <a href="#status-do-repositório">status do repositório</a>.
 
 ## Utilização
-Com um aparelho *Arduino* recomendado em mãos ou utilizando uma plataforma de simulação online como o [Thinkercad](tinkercad.com) basta seguir os passos.
-
-## Licença
-Esse projeto está sobre a licença
+Com um aparelho *Arduino* recomendado em mãos ou utilizando uma plataforma de simulação online como o [Tinkercad](https://www.tinkercad.com/ "Tinkercad") basta seguir os passos.
