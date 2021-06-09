@@ -1,9 +1,6 @@
 # Projeto da Cancela
 
-O objetivo desse projeto é simular uma cancela de automóveis.
-Quando um objeto se aproxima do sensor ultrasônico *HC-SR04* o
-micro servo motor *SG90* deve fazer um ângulo de 90 graus simulando
-a passagem do automóvel. 
+O objetivo desse projeto é simular uma estufa com 2 leds, cada um representando uma tela da estufa (led ligado = tela aberta). As telas devem estar abertas se a temperatura na estufa for maior que 20ºC, uma deve aberta caso a temperatura esteja entre 10 e 20ºC e ambas devem estar fechadas caso a temperatura seja menor que 10ºC. 
 
 ## Montagem 
 
@@ -15,9 +12,10 @@ Os tópicos a seguir estão relacionados ao processo de montagem do projeto.
 |:---------------:|:----------:|
 |   Arduino UNO   |      1     |
 | Placa de ensaio |      1     |
-|     HC-SR04     |      1     |
-|       SG90      |      1     |
-|      Jumper     |     11     |
+|      TMP36      |      1     |
+|Resistor 220 ohms|      2     |
+|       LED       |      2     |
+|      Jumper     |      9     |
 
 A quantidade de jumpers necessários pode variar de acordo com a forma de montagem.
 
@@ -27,12 +25,12 @@ A quantidade de jumpers necessários pode variar de acordo com a forma de montag
 
 | Componente | Porta do componente | Porta do Arduino |
 |:----------:|:-------------------:|:----------------:|
-|   HC-SR04  |       Trigger       |         8        |
-|            |         Echo        |         2        |
+|    TMP36   |         Vout        |        A5        |
 |            |         VCC         |        5V        |
 |            |         GND         |        GND       |
-|    SG90    |     Programação     |        13        |
-|            |          +          |        5V        |
+|LED Vermelho|          +          |         8        |
+|            |          -          |        GND       |
+| LED Verde  |          +          |         9        |
 |            |          -          |        GND       |
 
 ## Código 
@@ -45,8 +43,4 @@ Os tópicos a seguir estão relacionados ao código do projeto.
 
 ### Dependências
 
-~~~C++
-#include <Servo.h>   // Para o funcionamento do servo motor SG90  
-~~~
-
-Documentação da biblioteca [servo.h](https://www.arduino.cc/reference/en/libraries/servo/).
+Não foram usadas bibliotecas nesse projeto.
