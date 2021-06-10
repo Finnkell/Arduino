@@ -1,4 +1,4 @@
-# Projeto da Cancela
+# Projeto da Estufa
 
 O objetivo desse projeto é simular uma estufa com 2 leds, cada um representando uma tela da estufa (led ligado = tela aberta). As telas devem estar abertas se a temperatura na estufa for maior que 20ºC, uma deve aberta caso a temperatura esteja entre 10 e 20ºC e ambas devem estar fechadas caso a temperatura seja menor que 10ºC. 
 
@@ -21,7 +21,7 @@ A quantidade de jumpers necessários pode variar de acordo com a forma de montag
 
 ### Esquema de montagem
 
-![Esquema de montagem da cancela](imagens/esquema-de-montagem.png)
+![Esquema de montagem da estufa](imagens/esquema-de-montagem.png)
 
 | Componente | Porta do componente | Porta do Arduino |
 |:----------:|:-------------------:|:----------------:|
