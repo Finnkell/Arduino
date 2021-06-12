@@ -29,7 +29,7 @@ A quantidade de jumpers necessários pode variar de acordo com a forma de montag
 
 ### Esquema de montagem
 
-![Esquema de montagem](public/esquema-de-montagem.png)
+![Esquema de montagem](imagens/esquema-de-montagem.png)
 
 | Componente | Porta do componente | Porta do Arduino |
 |:----------:|:-------------------:|:----------------:|
