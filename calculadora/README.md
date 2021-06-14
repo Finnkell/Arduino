@@ -1,4 +1,4 @@
-# Projeto das músicas
+# Projeto da Calculadora
 
 O objetivo desse projeto é simular uma calculadora utilizando monitor LCD e teclado 4x4.
 
