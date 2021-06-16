@@ -31,6 +31,6 @@ O objetivo desse projeto é simular um semáforo.
 
 ![Código em Scratch](imagens/codigo-scratch.png)
 
-### Dependências
+## Dependências
 
 *Não há dependências neste projeto.*
