@@ -2,11 +2,7 @@
 
 O objetivo desse projeto é simular um semáforo.
 
-## Montagem 
-
-Os tópicos a seguir estão relacionados ao processo de montagem do projeto.
-
-### Materiais necessários
+## Materiais necessários
 
 |    Componente      | Quantidade |
 |:------------------:|:----------:|
@@ -16,29 +12,25 @@ Os tópicos a seguir estão relacionados ao processo de montagem do projeto.
 |  Resistor 220 ohms |      3     |
 |      Jumpers       |      7     |
 
-A quantidade de jumpers necessários pode variar de acordo com a forma de montagem.
+*A quantidade de jumpers necessários pode variar de acordo com a forma de montagem.*
 
-### Esquema de montagem
+## Esquema de montagem
 
-![Esquema de montagem do interruptor](imagens/esquema-de-montagem.png)
+![Esquema de montagem](imagens/esquema-de-montagem.png)
 
-| Componente | Porta do componente | Porta do Arduino |
-|:----------:|:-------------------:|:----------------:|
-|LED Vermelho|          +          |        11        |
-|            |          -          |       GND        |
-|LED Amarelo |          +          |         7        |
-|            |          -          |       GND        |
-| LED Verde  |          +          |         1        |
-|            |          -          |       GND        |
+| Componente | Porta do componente | Porta do Arduino | Resistor |
+|:----------:|:-------------------:|:----------------:|:--------:|
+|LED Vermelho|          +          |        11        | 220 ohms |
+|            |          -          |       GND        |          |
+|LED Amarelo |          +          |         7        | 220 ohms |
+|            |          -          |       GND        |          |
+| LED Verde  |          +          |         1        | 220 ohms |
+|            |          -          |       GND        |          |
 
-## Código 
-
-Os tópicos a seguir estão relacionados ao código do projeto.
-
-### Código em Scratch
+## Código em Scratch
 
 ![Código em Scratch](imagens/codigo-scratch.png)
 
 ### Dependências
 
-Não foram usadas bibliotecas nesse projeto.
+*Não há dependências neste projeto.*
