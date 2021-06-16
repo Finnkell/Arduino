@@ -1,6 +1,6 @@
-# Projeto das músicas
+# Calculadora
 
-O objetivo desse projeto é simular uma calculadora utilizando monitor LCD e teclado 4x4.
+O objetivo desse projeto é simular uma calculadora simples utilizando monitor **LCD** e **teclado 4x4**.
 
 ## Montagem 
 
@@ -14,7 +14,7 @@ Os tópicos a seguir estão relacionados ao processo de montagem do projeto.
 | Placa de ensaio |      1     |
 |   Teclado 4x4   |      1     |
 |    LCD 16x2     |      1     |
-|  Resistor 1ohm  |      1     |
+|  Resistor 1 ohm |      1     |
 |Resistor 220 ohms|      1     |
 |      Jumper     |     20     |
 
