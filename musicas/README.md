@@ -1,6 +1,6 @@
-# Projeto das músicas
+# Músicas
 
-O objetivo desse projeto tocar varias música utilizando apenas um Buzzer.
+O objetivo desse projeto tocar varias música utilizando apenas um **Buzzer**.
 
 Músicas:
 
@@ -12,11 +12,7 @@ Músicas:
 
 *Além disso as notas estão catalogadas caso queira fazer sua própria música*
 
-## Montagem 
-
-Os tópicos a seguir estão relacionados ao processo de montagem do projeto.
-
-### Materiais necessários
+## Materiais necessários
 
 |    Componente   | Quantidade |
 |:---------------:|:----------:|
@@ -25,25 +21,21 @@ Os tópicos a seguir estão relacionados ao processo de montagem do projeto.
 |Resistor 100 ohms|      1     |
 |      Jumper     |      2     |
 
-A quantidade de jumpers necessários pode variar de acordo com a forma de montagem.
+*A quantidade de jumpers necessários pode variar de acordo com a forma de montagem.*
 
-### Esquema de montagem
+## Esquema de montagem
 
 ![Esquema de montagem](imagens/esquema-de-montagem.png)
 
-| Componente | Porta do componente | Porta do Arduino |
-|:----------:|:-------------------:|:----------------:|
-|   Buzzer   |          +          |         8        |
-|            |          -          |        GND       |
+| Componente | Porta do componente | Porta do Arduino | Resistor |
+|:----------:|:-------------------:|:----------------:|:--------:|
+|   Buzzer   |          +          |         8        | 100 ohms |
+|            |          -          |        GND       |          |
 
-## Código 
-
-Os tópicos a seguir estão relacionados ao código do projeto.
-
-### Código em Scratch
+## Código em Scratch
 
 *Não foi utilizado*
 
-### Dependências
+## Dependências
 
-Não foram usadas bibliotecas nesse projeto.
+*Não não há dependências neste projeto.*
