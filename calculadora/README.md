@@ -2,11 +2,8 @@
 
 O objetivo desse projeto é simular uma calculadora simples utilizando monitor **LCD** e **teclado 4x4**.
 
-## Montagem 
 
-Os tópicos a seguir estão relacionados ao processo de montagem do projeto.
-
-### Materiais necessários
+## Componentes necessários
 
 |    Componente   | Quantidade |
 |:---------------:|:----------:|
@@ -18,45 +15,40 @@ Os tópicos a seguir estão relacionados ao processo de montagem do projeto.
 |Resistor 220 ohms|      1     |
 |      Jumper     |     20     |
 
-A quantidade de jumpers necessários pode variar de acordo com a forma de montagem.
+*A quantidade de jumpers necessários pode variar de acordo com a forma de montagem.*
 
-### Esquema de montagem
+## Esquema de montagem
 
 ![Esquema de montagem](imagens/esquema-de-montagem.png)
 
-| Componente | Porta do componente |  Porta do Arduino  |
-|:----------:|:-------------------:|:------------------:|
-|Teclado 4x4 |       coluna 4      |          0         |
-|            |       coluna 3      |          1         |
-|            |       coluna 2      |          2         |
-|            |       coluna 1      |          3         |
-|            |       linha 4       |          4         |
-|            |       linha 3       |          5         |
-|            |       linha 2       |          6         |
-|            |       linha 1       |          7         |
-|  LCD 16x2  |         GND         |          -         |
-|            |         VCC         |         5v         |
-|            |         V0          | Resistor 1ohm & -  |
-|            |         RS          |         A0         |
-|            |         RW          |          -         |
-|            |          E          |         A1         |
-|            |         DB4         |         A2         |
-|            |         DB5         |         A3         |
-|            |         DB6         |         A4         |
-|            |         DB7         |         A5         |
-|            |      LED anodo      |          +         |
-|            |     LED catódico    |Resistor 220ohms & -|
+| Componente | Porta do componente |  Porta do Arduino  | Resistor |
+|:----------:|:-------------------:|:------------------:|:--------:|
+|Teclado 4x4 |       coluna 4      |          0         |          |
+|            |       coluna 3      |          1         |          |
+|            |       coluna 2      |          2         |          |
+|            |       coluna 1      |          3         |          |
+|            |       linha 4       |          4         |          |
+|            |       linha 3       |          5         |          |
+|            |       linha 2       |          6         |          |
+|            |       linha 1       |          7         |          |
+|  LCD 16x2  |         GND         |          -         |          |
+|            |         VCC         |         5v         |          |
+|            |         V0          |          -         |  1 ohm   |
+|            |         RS          |         A0         |          |
+|            |         RW          |          -         |          |
+|            |          E          |         A1         |          |
+|            |         DB4         |         A2         |          |
+|            |         DB5         |         A3         |          |
+|            |         DB6         |         A4         |          |
+|            |         DB7         |         A5         |          |
+|            |      LED anodo      |          +         |          |
+|            |     LED catódico    |          -         | 220 ohms |
 
-
-## Código 
-
-Os tópicos a seguir estão relacionados ao código do projeto.
-
-### Código em Scratch
+## Código em Scratch
 
 *Não foi utilizado*
 
-### Dependências
+## Dependências
 
 ```C
 #include <LiquidCrystal.h> // Usada para controlar LCDs
